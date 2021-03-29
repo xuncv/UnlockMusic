@@ -1,6 +1,11 @@
 # UnlockMusic
 使用aardio打包的UnlockMusic程序
 
+##### 使用项目
+
+1. aardio [aardio编程语言 - 官网](http://www.aardio.com/)
+2. UnlockMusic [ix64/unlock-music: Unlock encrypted music file in browser. 在浏览器中解锁加密的音乐文件。 (github.com)](https://github.com/ix64/unlock-music)
+
 `UnlockMusic`是使用js编写的音乐格式转换软件，去掉国产音乐平台加的私有包皮。
 
 本项目使用`aardio`对`UnlockMusic`（1.8.1）的前端代码打包成单文件的exe，采用微软最新的webview2组件，与浏览器分离。
