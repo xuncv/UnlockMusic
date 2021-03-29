@@ -1,0 +1,42 @@
+{
+  "name": "unlock-music",
+  "version": "1.8.1",
+  "updateInfo": "添加构建为Docker镜像",
+  "license": "MIT",
+  "description": "Unlock encrypted music file in browser.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ix64/unlock-music"
+  },
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "fix-compatibility": "node ./src/fix-compatibility.js",
+    "make-extension": "node ./make-extension.js"
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "browser-id3-writer": "^4.4.0",
+    "core-js": "^3.8.3",
+    "crypto-js": "^4.0.0",
+    "element-ui": "^2.15.0",
+    "iconv-lite": "^0.6.2",
+    "jimp": "^0.16.1",
+    "metaflac-js": "^1.0.5",
+    "music-metadata-browser": "^2.2.4",
+    "register-service-worker": "^1.7.2",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-pwa": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
+    "babel-plugin-component": "^1.1.1",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.12",
+    "workerize-loader": "^1.3.0",
+    "sass-loader": "^10.1.1",
+    "node-sass": "^5.0.0"
+  }
+}

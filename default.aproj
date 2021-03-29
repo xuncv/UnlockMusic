@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="UnlockMusic" libEmbed="true" icon="..." ui="win" output="unlockmusic.exe" CompanyName="aardio" FileDescription="unlockmusic" LegalCopyright="Copyright (C) 作者 2021" ProductName="unlockmusic" InternalName="unlockmusic" FileVersion="0.0.0.06" ProductVersion="0.0.0.06" publishDir="/dist/" dstrip="false">
+	<file name="main" path="main.aardio"/>
+	<folder name="窗体" path="forms" comment="" embed="true" local="false" ignored="false"/>
+	<folder name="网页" path="web" embed="true" comment="目录" local="true" ignored="false">
+		<file name="index.html" path="web\index.html" comment="web\index.html"/>
+		<file name="index.js" path="web\index.js" comment="web\index.js"/>
+	</folder>
+	<folder name="网页源码" path="web.src" embed="false" comment="目录" local="false" ignored="true"/>
+</project>
